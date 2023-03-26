@@ -1,0 +1,13 @@
+0:
+  headers:
+    content-type: application/json
+    authorization:
+  method: post
+  url: https://test.rymcu.com/api/console/login
+  data:
+    account: admin
+      password: admin
+  status_code_expected_outcome: 200
+  data_regular_expression: '"token":(.*?)},"success"'
+  body_expected_oucome:
+  is_assert: false
