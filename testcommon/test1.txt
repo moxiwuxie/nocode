@@ -1,3 +1,0 @@
-2023-03-25 21:40:28,225 - WARNING - test is stringg.
-2023-03-25 21:40:28,225 - ERROR - test is stringg.
-2023-03-25 21:40:28,225 - CRITICAL - test is stringg.
