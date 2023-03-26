@@ -20,7 +20,7 @@ logger.setLevel(logging.DEBUG)
 # logging.basicConfig(filename='actual.txt', format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', filemode='a')
 
 # test_handler = logging.StreamHandler()
-test_handler = logging.handlers.RotatingFileHandler('actual.txt', mode='a', maxBytes=5000, backupCount=3)
+test_handler = logging.handlers.RotatingFileHandler('./logs/actual.txt', mode='a', maxBytes=100000, backupCount=10)
 test_handler.setFormatter(logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s'))
 logger.addHandler(test_handler)
 

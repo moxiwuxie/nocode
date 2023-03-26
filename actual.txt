@@ -1,22 +1,144 @@
-2023-03-26 18:48:25,194 - testcommon.logings - INFO - request.url=  https://test.rymcu.com/api/console/login
-2023-03-26 18:48:25,195 - testcommon.logings - INFO - request.headers=  {'User-Agent': 'python-requests/2.24.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'content-type': 'application/json', 'authorization': 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhZG1pbiIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjc5ODI3Njg3fQ._m5BDky8QNLnXDrITM3529O0ZMEwgg5rD5tk6F8UOWw', 'Content-Length': '41'}
-2023-03-26 18:48:25,195 - testcommon.logings - INFO - request.body=  {"account": "admin", "password": "admin"}
-2023-03-26 18:48:25,196 - testcommon.logings - INFO - rep.status_code=  200
-2023-03-26 18:48:25,196 - testcommon.logings - INFO - rep.text=  {"code":0,"data":{"refreshToken":"01GWERH7D41H61HJ4BE9ESNP4R","token":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhZG1pbiIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjc5ODI3NzA1fQ._r_o3hX68cv-Jugl2H-1OUFy6yUNA3KVjjmSvB_LI4I"},"success":true}
-2023-03-26 18:48:25,357 - testcommon.logings - INFO - request.url=  https://test.rymcu.com/api/article/post
-2023-03-26 18:48:25,357 - testcommon.logings - INFO - request.headers=  {'User-Agent': 'python-requests/2.24.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'content-type': 'application/json', 'authorization': 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhZG1pbiIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjc5ODI3NzA1fQ._r_o3hX68cv-Jugl2H-1OUFy6yUNA3KVjjmSvB_LI4I', 'Content-Length': '190'}
-2023-03-26 18:48:25,358 - testcommon.logings - INFO - request.body=  {"idArticle": 0, "articleTitle": "articleTitle", "articleContent": "articleContent\\n\\n", "articleContentHtml": "<p>articleContent</p>\\n", "articleTags": "articleTags", "articleStatus": 1}
-2023-03-26 18:48:25,358 - testcommon.logings - INFO - rep.status_code=  200
-2023-03-26 18:48:25,358 - testcommon.logings - INFO - rep.text=  {"code":0,"data":1428,"success":true}
-2023-03-26 18:48:25,358 - testcommon.logings - ERROR - assert check failed
-rep.text{"code":0,"data":1428,"success":true}
-2023-03-26 18:48:25,455 - testcommon.logings - INFO - request.url=  https://test.rymcu.com/api/article/post
-2023-03-26 18:48:25,456 - testcommon.logings - INFO - request.headers=  {'User-Agent': 'python-requests/2.24.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'content-type': 'application/json', 'authorization': 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhZG1pbiIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjc5ODI3NzA1fQ._r_o3hX68cv-Jugl2H-1OUFy6yUNA3KVjjmSvB_LI4I', 'Content-Length': '190'}
-2023-03-26 18:48:25,456 - testcommon.logings - INFO - request.body=  {"idArticle": 0, "articleTitle": "articleTitle", "articleContent": "articleContent\\n\\n", "articleContentHtml": "<p>articleContent</p>\\n", "articleTags": "articleTags", "articleStatus": 1}
-2023-03-26 18:48:25,457 - testcommon.logings - INFO - rep.status_code=  200
-2023-03-26 18:48:25,457 - testcommon.logings - INFO - rep.text=  {"code":0,"data":1429,"success":true}
-2023-03-26 18:48:25,555 - testcommon.logings - INFO - request.url=  https://test.rymcu.com/api/article/post
-2023-03-26 18:48:25,555 - testcommon.logings - INFO - request.headers=  {'User-Agent': 'python-requests/2.24.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'content-type': 'application/json', 'authorization': 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhZG1pbiIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjc5ODI3NzA1fQ._r_o3hX68cv-Jugl2H-1OUFy6yUNA3KVjjmSvB_LI4I', 'Content-Length': '190'}
-2023-03-26 18:48:25,556 - testcommon.logings - INFO - request.body=  {"idArticle": 0, "articleTitle": "articleTitle", "articleContent": "articleContent\\n\\n", "articleContentHtml": "<p>articleContent</p>\\n", "articleTags": "articleTags", "articleStatus": 1}
-2023-03-26 18:48:25,556 - testcommon.logings - INFO - rep.status_code=  200
-2023-03-26 18:48:25,556 - testcommon.logings - INFO - rep.text=  {"code":0,"data":1430,"success":true}
+2023-03-26 18:55:11,383 - testcommon.logings - ERROR - assert check failed
+rep.text{"code":0,"data":1434,"success":true}
+2023-03-26 18:55:11,504 - testcommon.logings - INFO - request.url=  https://test.rymcu.com/api/article/post
+2023-03-26 18:55:11,504 - testcommon.logings - INFO - request.headers=  {'User-Agent': 'python-requests/2.24.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'content-type': 'application/json', 'authorization': 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhZG1pbiIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjc5ODI4MTExfQ.594PhHBvvGpAnvryh-F0ahZmYAbikbKYl2cEyzpMZsk', 'Content-Length': '190'}
+2023-03-26 18:55:11,504 - testcommon.logings - INFO - request.body=  {"idArticle": 0, "articleTitle": "articleTitle", "articleContent": "articleContent\\n\\n", "articleContentHtml": "<p>articleContent</p>\\n", "articleTags": "articleTags", "articleStatus": 1}
+2023-03-26 18:55:11,504 - testcommon.logings - INFO - rep.status_code=  200
+2023-03-26 18:55:11,504 - testcommon.logings - INFO - rep.text=  {"code":0,"data":1435,"success":true}
+2023-03-26 18:55:11,592 - testcommon.logings - INFO - request.url=  https://test.rymcu.com/api/article/post
+2023-03-26 18:55:11,592 - testcommon.logings - INFO - request.headers=  {'User-Agent': 'python-requests/2.24.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'content-type': 'application/json', 'authorization': 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhZG1pbiIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjc5ODI4MTExfQ.594PhHBvvGpAnvryh-F0ahZmYAbikbKYl2cEyzpMZsk', 'Content-Length': '190'}
+2023-03-26 18:55:11,593 - testcommon.logings - INFO - request.body=  {"idArticle": 0, "articleTitle": "articleTitle", "articleContent": "articleContent\\n\\n", "articleContentHtml": "<p>articleContent</p>\\n", "articleTags": "articleTags", "articleStatus": 1}
+2023-03-26 18:55:11,593 - testcommon.logings - INFO - rep.status_code=  200
+2023-03-26 18:55:11,593 - testcommon.logings - INFO - rep.text=  {"code":0,"data":1436,"success":true}
+2023-03-26 19:08:22,065 - testcommon.logings - INFO - request.url=  https://test.rymcu.com/api/console/login
+2023-03-26 19:08:22,066 - testcommon.logings - INFO - request.headers=  {'User-Agent': 'python-requests/2.24.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'content-type': 'application/json', 'authorization': 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhZG1pbiIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjc5ODI4MTExfQ.594PhHBvvGpAnvryh-F0ahZmYAbikbKYl2cEyzpMZsk', 'Content-Length': '41'}
+2023-03-26 19:08:22,067 - testcommon.logings - INFO - request.body=  {"account": "admin", "password": "admin"}
+2023-03-26 19:08:22,067 - testcommon.logings - INFO - rep.status_code=  200
+2023-03-26 19:08:22,067 - testcommon.logings - INFO - rep.text=  {"code":0,"data":{"refreshToken":"01GWESNR7C6NTV4WY9FY269J85","token":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhZG1pbiIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjc5ODI4OTAyfQ.KGlV75pafAtHF5RysIPxeEOmo0wPz0Ds0hXnOriTHs0"},"success":true}
+2023-03-26 19:08:22,224 - testcommon.logings - INFO - request.url=  https://test.rymcu.com/api/article/post
+2023-03-26 19:08:22,225 - testcommon.logings - INFO - request.headers=  {'User-Agent': 'python-requests/2.24.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'content-type': 'application/json', 'authorization': 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhZG1pbiIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjc5ODI4OTAyfQ.KGlV75pafAtHF5RysIPxeEOmo0wPz0Ds0hXnOriTHs0', 'Content-Length': '190'}
+2023-03-26 19:08:22,225 - testcommon.logings - INFO - request.body=  {"idArticle": 0, "articleTitle": "articleTitle", "articleContent": "articleContent\\n\\n", "articleContentHtml": "<p>articleContent</p>\\n", "articleTags": "articleTags", "articleStatus": 1}
+2023-03-26 19:08:22,225 - testcommon.logings - INFO - rep.status_code=  200
+2023-03-26 19:08:22,226 - testcommon.logings - INFO - rep.text=  {"code":0,"data":1437,"success":true}
+2023-03-26 19:08:22,226 - testcommon.logings - ERROR - assert check failed
+rep.text{"code":0,"data":1437,"success":true}
+2023-03-26 19:08:22,322 - testcommon.logings - INFO - request.url=  https://test.rymcu.com/api/article/post
+2023-03-26 19:08:22,322 - testcommon.logings - INFO - request.headers=  {'User-Agent': 'python-requests/2.24.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'content-type': 'application/json', 'authorization': 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhZG1pbiIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjc5ODI4OTAyfQ.KGlV75pafAtHF5RysIPxeEOmo0wPz0Ds0hXnOriTHs0', 'Content-Length': '190'}
+2023-03-26 19:08:22,323 - testcommon.logings - INFO - request.body=  {"idArticle": 0, "articleTitle": "articleTitle", "articleContent": "articleContent\\n\\n", "articleContentHtml": "<p>articleContent</p>\\n", "articleTags": "articleTags", "articleStatus": 1}
+2023-03-26 19:08:22,323 - testcommon.logings - INFO - rep.status_code=  200
+2023-03-26 19:08:22,323 - testcommon.logings - INFO - rep.text=  {"code":0,"data":1438,"success":true}
+2023-03-26 19:08:22,420 - testcommon.logings - INFO - request.url=  https://test.rymcu.com/api/article/post
+2023-03-26 19:08:22,421 - testcommon.logings - INFO - request.headers=  {'User-Agent': 'python-requests/2.24.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'content-type': 'application/json', 'authorization': 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhZG1pbiIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjc5ODI4OTAyfQ.KGlV75pafAtHF5RysIPxeEOmo0wPz0Ds0hXnOriTHs0', 'Content-Length': '190'}
+2023-03-26 19:08:22,421 - testcommon.logings - INFO - request.body=  {"idArticle": 0, "articleTitle": "articleTitle", "articleContent": "articleContent\\n\\n", "articleContentHtml": "<p>articleContent</p>\\n", "articleTags": "articleTags", "articleStatus": 1}
+2023-03-26 19:08:22,421 - testcommon.logings - INFO - rep.status_code=  200
+2023-03-26 19:08:22,421 - testcommon.logings - INFO - rep.text=  {"code":0,"data":1439,"success":true}
+2023-03-26 19:12:39,086 - testcommon.logings - INFO - request.url=  https://test.rymcu.com/api/console/login
+2023-03-26 19:12:39,087 - testcommon.logings - INFO - request.headers=  {'User-Agent': 'python-requests/2.24.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'content-type': 'application/json', 'authorization': 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhZG1pbiIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjc5ODI4OTAyfQ.KGlV75pafAtHF5RysIPxeEOmo0wPz0Ds0hXnOriTHs0', 'Content-Length': '41'}
+2023-03-26 19:12:39,087 - testcommon.logings - INFO - request.body=  {"account": "admin", "password": "admin"}
+2023-03-26 19:12:39,088 - testcommon.logings - INFO - rep.status_code=  200
+2023-03-26 19:12:39,088 - testcommon.logings - INFO - rep.text=  {"code":0,"data":{"refreshToken":"01GWESXK78Y90B48WXN9307SFE","token":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhZG1pbiIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjc5ODI5MTU5fQ.OWf2jyNgcg1Po95YxgAhf-dOwcaQ9d4BFASSK3K5P5A"},"success":true}
+2023-03-26 19:12:39,256 - testcommon.logings - INFO - request.url=  https://test.rymcu.com/api/article/post
+2023-03-26 19:12:39,256 - testcommon.logings - INFO - request.headers=  {'User-Agent': 'python-requests/2.24.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'content-type': 'application/json', 'authorization': 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhZG1pbiIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjc5ODI5MTU5fQ.OWf2jyNgcg1Po95YxgAhf-dOwcaQ9d4BFASSK3K5P5A', 'Content-Length': '190'}
+2023-03-26 19:12:39,256 - testcommon.logings - INFO - request.body=  {"idArticle": 0, "articleTitle": "articleTitle", "articleContent": "articleContent\\n\\n", "articleContentHtml": "<p>articleContent</p>\\n", "articleTags": "articleTags", "articleStatus": 1}
+2023-03-26 19:12:39,257 - testcommon.logings - INFO - rep.status_code=  200
+2023-03-26 19:12:39,257 - testcommon.logings - INFO - rep.text=  {"code":0,"data":1440,"success":true}
+2023-03-26 19:12:39,257 - testcommon.logings - ERROR - assert check failed
+rep.text{"code":0,"data":1440,"success":true}
+2023-03-26 19:12:39,354 - testcommon.logings - INFO - request.url=  https://test.rymcu.com/api/article/post
+2023-03-26 19:12:39,354 - testcommon.logings - INFO - request.headers=  {'User-Agent': 'python-requests/2.24.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'content-type': 'application/json', 'authorization': 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhZG1pbiIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjc5ODI5MTU5fQ.OWf2jyNgcg1Po95YxgAhf-dOwcaQ9d4BFASSK3K5P5A', 'Content-Length': '190'}
+2023-03-26 19:12:39,354 - testcommon.logings - INFO - request.body=  {"idArticle": 0, "articleTitle": "articleTitle", "articleContent": "articleContent\\n\\n", "articleContentHtml": "<p>articleContent</p>\\n", "articleTags": "articleTags", "articleStatus": 1}
+2023-03-26 19:12:39,354 - testcommon.logings - INFO - rep.status_code=  200
+2023-03-26 19:12:39,354 - testcommon.logings - INFO - rep.text=  {"code":0,"data":1441,"success":true}
+2023-03-26 19:12:39,440 - testcommon.logings - INFO - request.url=  https://test.rymcu.com/api/article/post
+2023-03-26 19:12:39,441 - testcommon.logings - INFO - request.headers=  {'User-Agent': 'python-requests/2.24.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'content-type': 'application/json', 'authorization': 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhZG1pbiIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjc5ODI5MTU5fQ.OWf2jyNgcg1Po95YxgAhf-dOwcaQ9d4BFASSK3K5P5A', 'Content-Length': '190'}
+2023-03-26 19:12:39,441 - testcommon.logings - INFO - request.body=  {"idArticle": 0, "articleTitle": "articleTitle", "articleContent": "articleContent\\n\\n", "articleContentHtml": "<p>articleContent</p>\\n", "articleTags": "articleTags", "articleStatus": 1}
+2023-03-26 19:12:39,441 - testcommon.logings - INFO - rep.status_code=  200
+2023-03-26 19:12:39,441 - testcommon.logings - INFO - rep.text=  {"code":0,"data":1442,"success":true}
+2023-03-26 19:13:45,212 - testcommon.logings - INFO - request.url=  https://test.rymcu.com/api/console/login
+2023-03-26 19:13:45,212 - testcommon.logings - INFO - request.headers=  {'User-Agent': 'python-requests/2.24.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'content-type': 'application/json', 'authorization': 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhZG1pbiIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjc5ODI5MTU5fQ.OWf2jyNgcg1Po95YxgAhf-dOwcaQ9d4BFASSK3K5P5A', 'Content-Length': '41'}
+2023-03-26 19:13:45,212 - testcommon.logings - INFO - request.body=  {"account": "admin", "password": "admin"}
+2023-03-26 19:13:45,212 - testcommon.logings - INFO - rep.status_code=  200
+2023-03-26 19:13:45,212 - testcommon.logings - INFO - rep.text=  {"code":0,"data":{"refreshToken":"01GWESZKSP6J46J7HN22TMGGZ2","token":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhZG1pbiIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjc5ODI5MjI1fQ.24Xrmf6mgMVbe6Ws4xp_4wwETZ4WwZMi92RbUfSD9vM"},"success":true}
+2023-03-26 19:13:45,385 - testcommon.logings - INFO - request.url=  https://test.rymcu.com/api/article/post
+2023-03-26 19:13:45,386 - testcommon.logings - INFO - request.headers=  {'User-Agent': 'python-requests/2.24.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'content-type': 'application/json', 'authorization': 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhZG1pbiIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjc5ODI5MjI1fQ.24Xrmf6mgMVbe6Ws4xp_4wwETZ4WwZMi92RbUfSD9vM', 'Content-Length': '190'}
+2023-03-26 19:13:45,386 - testcommon.logings - INFO - request.body=  {"idArticle": 0, "articleTitle": "articleTitle", "articleContent": "articleContent\\n\\n", "articleContentHtml": "<p>articleContent</p>\\n", "articleTags": "articleTags", "articleStatus": 1}
+2023-03-26 19:13:45,386 - testcommon.logings - INFO - rep.status_code=  200
+2023-03-26 19:13:45,386 - testcommon.logings - INFO - rep.text=  {"code":0,"data":1443,"success":true}
+2023-03-26 19:13:45,387 - testcommon.logings - ERROR - assert check failed
+rep.text{"code":0,"data":1443,"success":true}
+2023-03-26 19:13:45,500 - testcommon.logings - INFO - request.url=  https://test.rymcu.com/api/article/post
+2023-03-26 19:13:45,500 - testcommon.logings - INFO - request.headers=  {'User-Agent': 'python-requests/2.24.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'content-type': 'application/json', 'authorization': 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhZG1pbiIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjc5ODI5MjI1fQ.24Xrmf6mgMVbe6Ws4xp_4wwETZ4WwZMi92RbUfSD9vM', 'Content-Length': '190'}
+2023-03-26 19:13:45,501 - testcommon.logings - INFO - request.body=  {"idArticle": 0, "articleTitle": "articleTitle", "articleContent": "articleContent\\n\\n", "articleContentHtml": "<p>articleContent</p>\\n", "articleTags": "articleTags", "articleStatus": 1}
+2023-03-26 19:13:45,501 - testcommon.logings - INFO - rep.status_code=  200
+2023-03-26 19:13:45,501 - testcommon.logings - INFO - rep.text=  {"code":0,"data":1444,"success":true}
+2023-03-26 19:13:45,589 - testcommon.logings - INFO - request.url=  https://test.rymcu.com/api/article/post
+2023-03-26 19:13:45,589 - testcommon.logings - INFO - request.headers=  {'User-Agent': 'python-requests/2.24.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'content-type': 'application/json', 'authorization': 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhZG1pbiIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjc5ODI5MjI1fQ.24Xrmf6mgMVbe6Ws4xp_4wwETZ4WwZMi92RbUfSD9vM', 'Content-Length': '190'}
+2023-03-26 19:13:45,589 - testcommon.logings - INFO - request.body=  {"idArticle": 0, "articleTitle": "articleTitle", "articleContent": "articleContent\\n\\n", "articleContentHtml": "<p>articleContent</p>\\n", "articleTags": "articleTags", "articleStatus": 1}
+2023-03-26 19:13:45,589 - testcommon.logings - INFO - rep.status_code=  200
+2023-03-26 19:13:45,589 - testcommon.logings - INFO - rep.text=  {"code":0,"data":1445,"success":true}
+2023-03-26 19:19:30,758 - testcommon.logings - INFO - request.url=  https://test.rymcu.com/api/console/login
+2023-03-26 19:19:30,759 - testcommon.logings - INFO - request.headers=  {'User-Agent': 'python-requests/2.24.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'content-type': 'application/json', 'authorization': 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhZG1pbiIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjc5ODI5MjI1fQ.24Xrmf6mgMVbe6Ws4xp_4wwETZ4WwZMi92RbUfSD9vM', 'Content-Length': '41'}
+2023-03-26 19:19:30,760 - testcommon.logings - INFO - request.body=  {"account": "admin", "password": "admin"}
+2023-03-26 19:19:30,760 - testcommon.logings - INFO - rep.status_code=  200
+2023-03-26 19:19:30,760 - testcommon.logings - INFO - rep.text=  {"code":0,"data":{"refreshToken":"01GWETA598Q5MDXK3FTWQJ9R6W","token":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhZG1pbiIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjc5ODI5NTcwfQ.w89zNuixUDIba-85l6ZNuh9I6P1sNKaIWIQjP2pImMU"},"success":true}
+2023-03-26 19:19:30,935 - testcommon.logings - INFO - request.url=  https://test.rymcu.com/api/article/post
+2023-03-26 19:19:30,936 - testcommon.logings - INFO - request.headers=  {'User-Agent': 'python-requests/2.24.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'content-type': 'application/json', 'authorization': 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhZG1pbiIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjc5ODI5NTcwfQ.w89zNuixUDIba-85l6ZNuh9I6P1sNKaIWIQjP2pImMU', 'Content-Length': '190'}
+2023-03-26 19:19:30,936 - testcommon.logings - INFO - request.body=  {"idArticle": 0, "articleTitle": "articleTitle", "articleContent": "articleContent\\n\\n", "articleContentHtml": "<p>articleContent</p>\\n", "articleTags": "articleTags", "articleStatus": 1}
+2023-03-26 19:19:30,936 - testcommon.logings - INFO - rep.status_code=  200
+2023-03-26 19:19:30,937 - testcommon.logings - INFO - rep.text=  {"code":0,"data":1446,"success":true}
+2023-03-26 19:19:30,937 - testcommon.logings - ERROR - assert check failed
+rep.text{"code":0,"data":1446,"success":true}
+2023-03-26 19:19:31,035 - testcommon.logings - INFO - request.url=  https://test.rymcu.com/api/article/post
+2023-03-26 19:19:31,035 - testcommon.logings - INFO - request.headers=  {'User-Agent': 'python-requests/2.24.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'content-type': 'application/json', 'authorization': 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhZG1pbiIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjc5ODI5NTcwfQ.w89zNuixUDIba-85l6ZNuh9I6P1sNKaIWIQjP2pImMU', 'Content-Length': '190'}
+2023-03-26 19:19:31,036 - testcommon.logings - INFO - request.body=  {"idArticle": 0, "articleTitle": "articleTitle", "articleContent": "articleContent\\n\\n", "articleContentHtml": "<p>articleContent</p>\\n", "articleTags": "articleTags", "articleStatus": 1}
+2023-03-26 19:19:31,036 - testcommon.logings - INFO - rep.status_code=  200
+2023-03-26 19:19:31,036 - testcommon.logings - INFO - rep.text=  {"code":0,"data":1447,"success":true}
+2023-03-26 19:19:31,129 - testcommon.logings - INFO - request.url=  https://test.rymcu.com/api/article/post
+2023-03-26 19:19:31,130 - testcommon.logings - INFO - request.headers=  {'User-Agent': 'python-requests/2.24.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'content-type': 'application/json', 'authorization': 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhZG1pbiIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjc5ODI5NTcwfQ.w89zNuixUDIba-85l6ZNuh9I6P1sNKaIWIQjP2pImMU', 'Content-Length': '190'}
+2023-03-26 19:19:31,130 - testcommon.logings - INFO - request.body=  {"idArticle": 0, "articleTitle": "articleTitle", "articleContent": "articleContent\\n\\n", "articleContentHtml": "<p>articleContent</p>\\n", "articleTags": "articleTags", "articleStatus": 1}
+2023-03-26 19:19:31,131 - testcommon.logings - INFO - rep.status_code=  200
+2023-03-26 19:19:31,131 - testcommon.logings - INFO - rep.text=  {"code":0,"data":1448,"success":true}
+2023-03-26 19:33:16,628 - testcommon.logings - INFO - request.url=  https://test.rymcu.com/api/console/login
+2023-03-26 19:33:16,629 - testcommon.logings - INFO - request.headers=  {'User-Agent': 'python-requests/2.24.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'content-type': 'application/json', 'authorization': 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhZG1pbiIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjc5ODI5NTcwfQ.w89zNuixUDIba-85l6ZNuh9I6P1sNKaIWIQjP2pImMU', 'Content-Length': '41'}
+2023-03-26 19:33:16,629 - testcommon.logings - INFO - request.body=  {"account": "admin", "password": "admin"}
+2023-03-26 19:33:16,629 - testcommon.logings - INFO - rep.status_code=  200
+2023-03-26 19:33:16,629 - testcommon.logings - INFO - rep.text=  {"code":0,"data":{"refreshToken":"01GWEV3BT16MB6R26RMV5E82F7","token":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhZG1pbiIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjc5ODMwMzk2fQ.Y-KC1rN71y7IZsXPiTo_p0WwMP_GJ9PXziXlmKj9Ymk"},"success":true}
+2023-03-26 19:33:16,779 - testcommon.logings - INFO - request.url=  https://test.rymcu.com/api/article/post
+2023-03-26 19:33:16,780 - testcommon.logings - INFO - request.headers=  {'User-Agent': 'python-requests/2.24.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'content-type': 'application/json', 'authorization': 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhZG1pbiIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjc5ODMwMzk2fQ.Y-KC1rN71y7IZsXPiTo_p0WwMP_GJ9PXziXlmKj9Ymk', 'Content-Length': '190'}
+2023-03-26 19:33:16,780 - testcommon.logings - INFO - request.body=  {"idArticle": 0, "articleTitle": "articleTitle", "articleContent": "articleContent\\n\\n", "articleContentHtml": "<p>articleContent</p>\\n", "articleTags": "articleTags", "articleStatus": 1}
+2023-03-26 19:33:16,780 - testcommon.logings - INFO - rep.status_code=  200
+2023-03-26 19:33:16,781 - testcommon.logings - INFO - rep.text=  {"code":0,"data":1449,"success":true}
+2023-03-26 19:33:16,781 - testcommon.logings - ERROR - assert check failed
+rep.text{"code":0,"data":1449,"success":true}
+2023-03-26 19:33:16,874 - testcommon.logings - INFO - request.url=  https://test.rymcu.com/api/article/post
+2023-03-26 19:33:16,875 - testcommon.logings - INFO - request.headers=  {'User-Agent': 'python-requests/2.24.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'content-type': 'application/json', 'authorization': 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhZG1pbiIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjc5ODMwMzk2fQ.Y-KC1rN71y7IZsXPiTo_p0WwMP_GJ9PXziXlmKj9Ymk', 'Content-Length': '190'}
+2023-03-26 19:33:16,875 - testcommon.logings - INFO - request.body=  {"idArticle": 0, "articleTitle": "articleTitle", "articleContent": "articleContent\\n\\n", "articleContentHtml": "<p>articleContent</p>\\n", "articleTags": "articleTags", "articleStatus": 1}
+2023-03-26 19:33:16,876 - testcommon.logings - INFO - rep.status_code=  200
+2023-03-26 19:33:16,876 - testcommon.logings - INFO - rep.text=  {"code":0,"data":1450,"success":true}
+2023-03-26 19:33:16,982 - testcommon.logings - INFO - request.url=  https://test.rymcu.com/api/article/post
+2023-03-26 19:33:16,982 - testcommon.logings - INFO - request.headers=  {'User-Agent': 'python-requests/2.24.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'content-type': 'application/json', 'authorization': 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhZG1pbiIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjc5ODMwMzk2fQ.Y-KC1rN71y7IZsXPiTo_p0WwMP_GJ9PXziXlmKj9Ymk', 'Content-Length': '190'}
+2023-03-26 19:33:16,983 - testcommon.logings - INFO - request.body=  {"idArticle": 0, "articleTitle": "articleTitle", "articleContent": "articleContent\\n\\n", "articleContentHtml": "<p>articleContent</p>\\n", "articleTags": "articleTags", "articleStatus": 1}
+2023-03-26 19:33:16,983 - testcommon.logings - INFO - rep.status_code=  200
+2023-03-26 19:33:16,983 - testcommon.logings - INFO - rep.text=  {"code":0,"data":1451,"success":true}
+2023-03-26 19:34:23,529 - testcommon.logings - INFO - request.url=  https://test.rymcu.com/api/console/login
+2023-03-26 19:34:23,530 - testcommon.logings - INFO - request.headers=  {'User-Agent': 'python-requests/2.24.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'content-type': 'application/json', 'authorization': 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhZG1pbiIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjc5ODMwMzk2fQ.Y-KC1rN71y7IZsXPiTo_p0WwMP_GJ9PXziXlmKj9Ymk', 'Content-Length': '41'}
+2023-03-26 19:34:23,530 - testcommon.logings - INFO - request.body=  {"account": "admin", "password": "admin"}
+2023-03-26 19:34:23,530 - testcommon.logings - INFO - rep.status_code=  200
+2023-03-26 19:34:23,530 - testcommon.logings - INFO - rep.text=  {"code":0,"data":{"refreshToken":"01GWEV5D4MSRDRFAJGSHMFVD3W","token":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhZG1pbiIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjc5ODMwNDYzfQ.9IBZU7a-eLtW6k6Swf0t0wI-bit5EMF1JPTSWgLNLQY"},"success":true}
+2023-03-26 19:34:23,686 - testcommon.logings - INFO - request.url=  https://test.rymcu.com/api/article/post
+2023-03-26 19:34:23,686 - testcommon.logings - INFO - request.headers=  {'User-Agent': 'python-requests/2.24.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'content-type': 'application/json', 'authorization': 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhZG1pbiIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjc5ODMwNDYzfQ.9IBZU7a-eLtW6k6Swf0t0wI-bit5EMF1JPTSWgLNLQY', 'Content-Length': '190'}
+2023-03-26 19:34:23,687 - testcommon.logings - INFO - request.body=  {"idArticle": 0, "articleTitle": "articleTitle", "articleContent": "articleContent\\n\\n", "articleContentHtml": "<p>articleContent</p>\\n", "articleTags": "articleTags", "articleStatus": 1}
+2023-03-26 19:34:23,687 - testcommon.logings - INFO - rep.status_code=  200
+2023-03-26 19:34:23,687 - testcommon.logings - INFO - rep.text=  {"code":0,"data":1452,"success":true}
+2023-03-26 19:34:23,688 - testcommon.logings - ERROR - assert check failed
+rep.text{"code":0,"data":1452,"success":true}
+2023-03-26 19:34:23,773 - testcommon.logings - INFO - request.url=  https://test.rymcu.com/api/article/post
+2023-03-26 19:34:23,774 - testcommon.logings - INFO - request.headers=  {'User-Agent': 'python-requests/2.24.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'content-type': 'application/json', 'authorization': 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhZG1pbiIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjc5ODMwNDYzfQ.9IBZU7a-eLtW6k6Swf0t0wI-bit5EMF1JPTSWgLNLQY', 'Content-Length': '190'}
+2023-03-26 19:34:23,774 - testcommon.logings - INFO - request.body=  {"idArticle": 0, "articleTitle": "articleTitle", "articleContent": "articleContent\\n\\n", "articleContentHtml": "<p>articleContent</p>\\n", "articleTags": "articleTags", "articleStatus": 1}
+2023-03-26 19:34:23,774 - testcommon.logings - INFO - rep.status_code=  200
+2023-03-26 19:34:23,774 - testcommon.logings - INFO - rep.text=  {"code":0,"data":1453,"success":true}
+2023-03-26 19:34:23,847 - testcommon.logings - INFO - request.url=  https://test.rymcu.com/api/article/post
+2023-03-26 19:34:23,848 - testcommon.logings - INFO - request.headers=  {'User-Agent': 'python-requests/2.24.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'content-type': 'application/json', 'authorization': 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhZG1pbiIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjc5ODMwNDYzfQ.9IBZU7a-eLtW6k6Swf0t0wI-bit5EMF1JPTSWgLNLQY', 'Content-Length': '190'}
+2023-03-26 19:34:23,848 - testcommon.logings - INFO - request.body=  {"idArticle": 0, "articleTitle": "articleTitle", "articleContent": "articleContent\\n\\n", "articleContentHtml": "<p>articleContent</p>\\n", "articleTags": "articleTags", "articleStatus": 1}
+2023-03-26 19:34:23,848 - testcommon.logings - INFO - rep.status_code=  200
+2023-03-26 19:34:23,848 - testcommon.logings - INFO - rep.text=  {"code":0,"data":1454,"success":true}

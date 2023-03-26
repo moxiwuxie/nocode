@@ -20,8 +20,6 @@ def session_establish(datas):
     status_code_expected_outcome = datas[filedata]['status_code_expected_outcome']
     body_expected_oucome = datas[filedata]['body_expected_oucome']
     is_assert = datas[filedata]['is_assert']
-    print(datas[filedata])
-    print('计数器')
 
     if method == 'get':
       rep = session.request(method=method, url=url, headers=headers, params=json.dumps(data))
