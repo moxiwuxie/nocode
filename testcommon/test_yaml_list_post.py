@@ -6,7 +6,7 @@ from testcommon.session_establish import session_establish
 import pytest
 
 
-# @pytest.mark.smoke
+@pytest.mark.smoke
 def test_yaml_list_post():
   path = read_yaml(path='./settings.yaml')
   execute_path1 = path['execute_path']

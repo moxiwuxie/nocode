@@ -3,7 +3,24 @@
     content-type: application/json
     authorization:
   method: post
-  url: https://test.rymcu.com/test_article_create
+  url: https://test.rymcu.com/api/article/post
+  data:
+    idArticle: 0
+    articleTitle: articleTitle
+    articleContent: articleContent\n\n
+    articleContentHtml: <p>articleContent</p>\n
+    articleTags: articleTags
+    articleStatus: 1
+  status_code_expected_outcome: 200
+  data_regular_expression: '"data":(.*?),"success"'
+  body_expected_oucome: 1500
+  is_assert: true
+1:
+  headers:
+    content-type: application/json
+    authorization:
+  method: post
+  url: https://test.rymcu.com/api/article/post
   data:
     idArticle: 0
     articleTitle: articleTitle
@@ -15,35 +32,20 @@
   data_regular_expression: '"data":(.*?),"success"'
   body_expected_oucome:
   is_assert: false
-1:
-  headers:
-    content-type: application/json
-    authorization:
-    method: post
-    url: https://test.rymcu.com/test_article_create
-    data:
-      idArticle: 0
-      articleTitle: articleTitle
-      articleContent: articleContent\n\n
-      articleContentHtml: <p>articleContent</p>\n
-      articleTags: articleTags
-      articleStatus: 1
-    data_regular_expression: '"token":(.*?)},"success"'
-    status_code_expected_outcome: 200
-    body_expected_oucome: success
 2:
   headers:
     content-type: application/json
     authorization:
-    method: post
-    url: https://test.rymcu.com/test_article_create
-    data:
-      idArticle: 0
-      articleTitle: articleTitle
-      articleContent: articleContent\n\n
-      articleContentHtml: <p>articleContent</p>\n
-      articleTags: articleTags
-      articleStatus: 1
-    data_regular_expression: '"token":(.*?)},"success"'
-    status_code_expected_outcome: 200
-    body_expected_oucome: success
+  method: post
+  url: https://test.rymcu.com/api/article/post
+  data:
+    idArticle: 0
+    articleTitle: articleTitle
+    articleContent: articleContent\n\n
+    articleContentHtml: <p>articleContent</p>\n
+    articleTags: articleTags
+    articleStatus: 1
+  status_code_expected_outcome: 200
+  data_regular_expression: '"data":(.*?),"success"'
+  body_expected_oucome:
+  is_assert: false
